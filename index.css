@@ -149,3 +149,12 @@ body.dark {
     opacity: 1;
     transition: 1s ease-in;
 }
+
+ol#list_item button {
+    margin-left: 15px;
+    background: #705AB2;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #705AB2;
+    border-radius: 4px;
+}
