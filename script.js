@@ -18,11 +18,11 @@ const handleAdd = (e) => {
         const ele = document.createElement('li')
         const text_node = document.createTextNode(textToAdd)
         ele.appendChild(text_node)
+        ele.style.margin="20px 20px 20px 20px"
         list.appendChild(ele)
 
         //create a dynamic button element
         const button = document.createElement('button')
-        button.innerHTML = "Delete"
         ele.appendChild(button)
 
         //clear the list
