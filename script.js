@@ -22,14 +22,14 @@ const handleAdd = (e) => {
         list.appendChild(ele)
 
         //create a dynamic button element
-        const button = document.createElement('button')
-        button.innerHTML = "<a> Delete </a>";
-        button.style.margin="3px 3px 3px 3px "
-        button.style.cursor="pointer"
-        button.style.border= "2px solid white";
-        button.style.backgroundColor="#4db8ff"
-        button.style.borderRadius="5px"
-        ele.appendChild(button)
+        // const button = document.createElement('button')
+        // button.innerHTML = "<a> Delete </a>";
+        // button.style.margin="3px 3px 3px 3px "
+        // button.style.cursor="pointer"
+        // button.style.border= "2px solid white";
+        // button.style.backgroundColor="#4db8ff"
+        // button.style.borderRadius="5px"
+        // ele.appendChild(button)
 
         //clear the list
         button.addEventListener('click', (e) => {
