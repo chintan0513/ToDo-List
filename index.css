@@ -115,8 +115,15 @@ input::placeholder {
 #list_item {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
     top: 30px;
+    font-size: 3rem;
+    
+}
+li {
+    margin: 10px;
 }
 .links{
     position: absolute;
@@ -147,5 +154,6 @@ input::placeholder {
 body.dark {
     background: #000;
     opacity: 1;
+    color: white;
     transition: 1s ease-in;
 }
