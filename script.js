@@ -23,6 +23,7 @@ const handleAdd = (e) => {
 
         //create a dynamic button element
         const button = document.createElement('button')
+        button.innerHTML = "Delete"
         ele.appendChild(button)
 
         //clear the list
