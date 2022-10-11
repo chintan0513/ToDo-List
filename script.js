@@ -41,10 +41,9 @@ btn.addEventListener('click', (handleAdd))
 
 // dark mode
 
-const dark_btn = document.querySelector('label')
+const dark_btn = document.querySelector('.btn')
 const body = document.querySelector('body')
 
 dark_btn.addEventListener('click', (e) => {
-    // body.classList.toggle('dark')
-    body.classList.add('dark')
+    body.classList.toggle('dark')
 })
