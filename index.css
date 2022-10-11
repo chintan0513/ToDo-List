@@ -149,3 +149,10 @@ body.dark {
     opacity: 1;
     transition: 1s ease-in;
 }
+
+.Delete_all_button{
+    position: absolute;
+    font-size: 15px;
+    top: 550px;
+    right: 820px;
+}
