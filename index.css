@@ -150,9 +150,11 @@ body.dark {
     transition: 1s ease-in;
 }
 
+
 .Delete_all_button{
     position: absolute;
     font-size: 15px;
     top: 240px;
     right: 400px;
+    
 }

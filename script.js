@@ -18,11 +18,17 @@ const handleAdd = (e) => {
         const ele = document.createElement('li')
         const text_node = document.createTextNode(textToAdd)
         ele.appendChild(text_node)
+        ele.style.margin="20px 20px 20px 20px"
         list.appendChild(ele)
 
         //create a dynamic button element
         const button = document.createElement('button')
-        button.innerHTML = "Delete"
+        button.innerHTML = "<a> Delete </a>";
+        button.style.margin="3px 3px 3px 3px "
+        button.style.cursor="pointer"
+        button.style.border= "2px solid white";
+        button.style.backgroundColor="#4db8ff"
+        button.style.borderRadius="5px"
         ele.appendChild(button)
 
         //clear the list
@@ -41,10 +47,9 @@ btn.addEventListener('click', (handleAdd))
 
 // dark mode
 
-const dark_btn = document.querySelector('label')
+const dark_btn = document.querySelector('.btn')
 const body = document.querySelector('body')
 
 dark_btn.addEventListener('click', (e) => {
-    // body.classList.toggle('dark')
-    body.classList.add('dark')
+    body.classList.toggle('dark')
 })
