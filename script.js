@@ -19,11 +19,13 @@ const handleAdd = (e) => {
         const text_node = document.createTextNode(textToAdd)
         ele.appendChild(text_node)
         list.appendChild(ele)
+        ele.classList.add('item_list')
 
         //create a dynamic button element
         const button = document.createElement('button')
         button.innerHTML = "Delete"
         ele.appendChild(button)
+        button.classList.add('butn')
 
         //clear the list
         button.addEventListener('click', (e) => {
@@ -47,3 +49,7 @@ const body = document.querySelector('body')
 dark_btn.addEventListener('click', (e) => {
     body.classList.toggle('dark')
 })
+
+const deleteAll = () => {
+    document.getElementById("list_item").innerHTML = '';
+}

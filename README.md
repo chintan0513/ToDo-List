@@ -1,6 +1,6 @@
 ## About this project
 This is a simple todo-list app made using vanilla js. <br/>
-You can checkout the project from [here](https://todo-list-iota-nine.vercel.app/)
+You can checkout the project from [here](https://todo-list-ctcb9md2n-chintan0513.vercel.app/)
 <br/>
 <br/>
 ## Getting Started
