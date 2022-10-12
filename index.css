@@ -5,9 +5,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
-    background: #9796f0;  /* fallback for old browsers */
+    background: #9796f0;  fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: .2s ease-out;
 }
 .bg-cover{
     background: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/113998-light-blue-horizontal-striped-background-vector.jpg?w=420') no-repeat center;
@@ -147,5 +148,7 @@ input::placeholder {
 body.dark {
     background: #000;
     opacity: 1;
-    transition: 1s ease-in;
+    transition: .5s ease;
+
+    color: white;
 }
