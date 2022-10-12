@@ -21,7 +21,16 @@ body {
     justify-content: center;
     position: relative;
     align-items: center;
+    
 }
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
 .container header{
     display: flex;
     justify-content: space-around;
@@ -84,10 +93,11 @@ input:checked + .slider:before {
     position: absolute;
     justify-content: space-between;
     background: whitesmoke;
-    height: 32px;
-    width: 400px;
+    height: 38px;
+    width: 600px;
     opacity: 1;
     border-radius: 5px;
+    
 }
 .inputs input {
     margin: 0px 5px;
@@ -135,6 +145,8 @@ input::placeholder {
 .extrnl {
     display: flex;
     position: relative;
+    margin-right: 47%;
+    
 }
 .extrnl img{
     height: 20px;
@@ -157,4 +169,9 @@ ol#list_item button {
     padding: 5px 10px;
     border: 1px solid #705AB2;
     border-radius: 4px;
+}
+
+.search{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
