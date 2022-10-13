@@ -158,3 +158,9 @@ ol#list_item button {
     border: 1px solid #705AB2;
     border-radius: 4px;
 }
+.Delete_all_button{
+    position: absolute;
+    font-size: 15px;
+    top: 240px;
+    right: 400px;
+}
