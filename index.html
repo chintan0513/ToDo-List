@@ -30,6 +30,7 @@
     <div>
         <ol id="list_item"></ol>
     </div>
+<button class="Delete_all_button" text="type-center" onclick="deleteAll()">Delete All</button>
 
     <div class="links">
         <a href="#">CHINTAN TRIPATHI</a>
@@ -40,6 +41,11 @@
         </div>
     </div>
 
+    <script>
+        function deleteAll(){
+            document.getElementById("list_item").innerHTML = '';
+        }
+    </script>
     
     <script src="./assets/javascript/script.js"></script>
 </body>
