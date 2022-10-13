@@ -31,6 +31,8 @@
         <ol id="list_item"></ol>
     </div>
 
+     <button class="Delete_all_button" text="type-center" onclick="deleteAll()">Delete All</button>
+
     <div class="links">
         <a href="#">CHINTAN TRIPATHI</a>
         <div class="extrnl">
@@ -39,6 +41,12 @@
            <a href="https://github.com/chintan0513" target="blank"><img src="https://www.svgrepo.com/show/217753/github.svg" alt="github-pic"></a>
         </div>
     </div>
+
+    <script>
+        function deleteAll(){
+            document.getElementById("list_item").innerHTML = '';
+        }
+    </script>
 
     
     <script src="./assets/javascript/script.js"></script>
