@@ -158,3 +158,15 @@ ol#list_item button {
     border: 1px solid #705AB2;
     border-radius: 4px;
 }
+ol#list_item li{
+    font-size: 15px;
+    padding:10px;
+    background:#fff;
+    color:#705AB2;
+    border:1px solid #fff;
+    
+}
+OL#list_item li span{
+    padding-right:20px;
+    font-weight: 300;
+}
